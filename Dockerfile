@@ -1,9 +1,9 @@
 FROM debian:stable-slim
 
 ARG r3_db_host
-ARG r3_os_arch
-ARG r3_version
-ARG im_policy
+ARG r3_os_arch x64
+ARG r3_version 3.2
+ARG im_policy /etc/ImageMagick-6/policy.xml
 
 # setup environment
 # * Create directories: App + data 
